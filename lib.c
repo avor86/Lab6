@@ -7,8 +7,8 @@ double func(double x)
 }
 int W_files(double x, int N, double delta,char* group, char* name)
 {
-    FILE* input_table = fopen ("lab6/Table.txt", "w");
-    FILE* bina = fopen ("lab6/Binary.bin", "w+b");
+    FILE* input_table = fopen ("Table.txt", "w");
+    FILE* bina = fopen ("Binary.bin", "w+b");
     if (input_table==NULL || bina==NULL)
     {
         printf("The file couldn`t be open");
@@ -40,7 +40,7 @@ void binary_print(char* group, char* name)
 {
     int N=0;
     double Num=0;
-    FILE* bina = fopen("lab6/Binary.bin", "r+b");
+    FILE* bina = fopen("Binary.bin", "r+b");
     if (bina==NULL)
     {
          printf("Error, the binary file don't exist");
