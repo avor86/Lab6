@@ -17,7 +17,7 @@ To crate Binary.exe:
 	
 To compile:
 
-Binary.exe
+	Binary.exe
 
 clean: 
 
