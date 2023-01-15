@@ -17,6 +17,6 @@ To compile:
 
 	./Binary.exe
 
-clean: 
+To clean: 
 
 	rm -f *.o Binary.exe
