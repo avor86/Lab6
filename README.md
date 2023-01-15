@@ -9,7 +9,7 @@ To create lib.o:
 
 	gcc -c lib.c
   
-To crate Binary.exe:
+To create Binary.exe:
 
 	gcc -o Binary.exe main.o lib.o
 	
