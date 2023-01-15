@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "lib.c"
 int main()
 {
     char group[50]={0}, name[50]={0};
     double x1, x2, delta;
     int N;
-    FILE* input_W = fopen ("Input.txt", "r");
+    FILE* input_W = fopen ("lab6/Input.txt", "r");
     if (input_W==NULL)
     {
         printf("The file couldn`t be open");

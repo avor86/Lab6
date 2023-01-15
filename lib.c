@@ -1,11 +1,14 @@
+
+#include <stdio.h>
+#include "lib.o"
 double func(double x)
 {
     return 0.25*(x-25)*(x-25)+(x+25)*(x+25)*(x+25)/100+1;
 }
 int W_files(double x, int N, double delta,char* group, char* name)
 {
-    FILE* input_table = fopen ("Table.txt", "w");
-    FILE* bina = fopen ("Binary.bin", "w+b");
+    FILE* input_table = fopen ("lab6/Table.txt", "w");
+    FILE* bina = fopen ("lab6/Binary.bin", "w+b");
     if (input_table==NULL || bina==NULL)
     {
         printf("The file couldn`t be open");
