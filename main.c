@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "lib.c"
 int main()
 {
     char group[50]={0}, name[50]={0};
