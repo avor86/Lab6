@@ -1,4 +1,3 @@
-#include "lib.h"
 double func(double x)
 {
     return 0.25*(x-25)*(x-25)+(x+25)*(x+25)*(x+25)/100+1;
