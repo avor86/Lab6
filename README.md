@@ -3,8 +3,6 @@
 
 To create main.o:
 
-main.o: main.o:
-
 	gcc -c main.c
 
 To create lib.o:
