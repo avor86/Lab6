@@ -11,9 +11,13 @@ To create lib.o:
 
 	gcc -c lib.c
   
-To compile:
+To crate Binary.exe:
 
 	gcc -o Binary.exe main.o lib.o
+	
+To compile:
+
+Binary.exe
 
 clean: 
 
