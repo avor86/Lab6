@@ -3,7 +3,7 @@
 
 To create main.o:
 
-main.o: main.c:
+main.o: main.o:
 
 	gcc -c main.c
 
